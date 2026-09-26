@@ -1,7 +1,7 @@
 {
   "id": "sidebar-resizer",
   "title": "Sidebar and Windows Resizer",
-  "description": "Resize chat and windows, as well an optional powerful chat editor",
+  "description": "Resize the sidebar, the chat input and sidebar popout windows",
   "authors": [
     {
       "name": "Saif Addin Ellafi",
@@ -12,26 +12,27 @@
       "name": "Vance Cole"
     }
   ],
-  "version": "0.8.0",
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "12",
+  "version": "0.9.0",
   "compatibility": {
-    "minimum": "0.8.9",
-    "verified": "12.325",
-    "maximum": "12"
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
   },
   "relationships": {
-    "requires":  [{
-      "id": "lib-wrapper",
-      "type": "module"
-    }]
+    "recommends": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "reason": "Used to make sidebar popouts resizable without conflicts"
+      }
+    ]
   },
   "esmodules": [
     "./sidebar-resizer.js"
   ],
-  "url": "https://github.com/saif-ellafi/foundryvtt-sidebar-resizer.git",
-  "manifest": "https://github.com/saif-ellafi/foundryvtt-sidebar-resizer/releases/latest/download/module.json",
-  "download": "https://github.com/saif-ellafi/foundryvtt-sidebar-resizer/releases/download/0.8.0/foundryvtt-sidebar-resizer_0.8.0.zip",
-  "readme": "https://github.com/saif-ellafi/foundryvtt-sidebar-resizer/blob/master/README.md",
-  "changelog": "https://github.com/saif-ellafi/foundryvtt-sidebar-resizer/blob/master/CHANGELOG.md"
+  "url": "https://github.com/Jombolio/foundryvtt-sidebar-resizer.git",
+  "manifest": "https://github.com/Jombolio/foundryvtt-sidebar-resizer/releases/latest/download/module.json",
+  "download": "https://github.com/Jombolio/foundryvtt-sidebar-resizer/releases/download/0.9.0/foundryvtt-sidebar-resizer_0.9.0.zip",
+  "readme": "https://github.com/Jombolio/foundryvtt-sidebar-resizer/blob/master/README.md",
+  "changelog": "https://github.com/Jombolio/foundryvtt-sidebar-resizer/blob/master/CHANGELOG.md"
 }

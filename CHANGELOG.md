@@ -1,3 +1,10 @@
+# 0.9.0
+* Support for Foundry V14 (and V13): rewritten for the ApplicationV2 sidebar and chat log
+* Sidebar resize now follows the new sidebar layout and keeps working after collapsing/expanding
+* Chat input resize works in the sidebar, the chat popout and the notifications area
+* Removed the experimental TinyMCE chat formatting (TinyMCE is gone from core; the V14 chat input is a native rich-text editor)
+* libWrapper is now recommended instead of required
+
 # 0.8.0
 * Support for Foundry V12
 
